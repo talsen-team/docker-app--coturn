@@ -1,6 +1,7 @@
 *
 
 !.vscode/
+!bash-commands
 !bash-util
 !.vscode/tasks.json
 !.gitignore
