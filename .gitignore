@@ -20,3 +20,4 @@
 !docker-compose/server--coturn/default.docker-compose
 !.gitignore
 !.gitmodules
+!host.env
