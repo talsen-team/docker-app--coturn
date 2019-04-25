@@ -1,10 +1,19 @@
 *
 
 !.vscode/
+!.vscode/tasks.json
 !bash-commands
 !bash-commands--specific/
 !bash-commands--specific/setup--generate-configuration.sh
 !bash-util
-!.vscode/tasks.json
+!docker/
+!docker/server--coturn/
+!docker/server--coturn/rootfs/
+!docker/server--coturn/rootfs/opt/
+!docker/server--coturn/rootfs/opt/server--coturn/
+!docker/server--coturn/rootfs/opt/server--coturn/entrypoint.sh
+!docker/server--coturn/rootfs/templates/
+!docker/server--coturn/rootfs/templates/turnserver.conf
+!docker/server--coturn/default.docker
 !.gitignore
 !.gitmodules
