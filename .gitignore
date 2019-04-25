@@ -15,5 +15,8 @@
 !docker/server--coturn/rootfs/templates/
 !docker/server--coturn/rootfs/templates/turnserver.conf
 !docker/server--coturn/default.docker
+!docker-compose/
+!docker-compose/server--coturn/
+!docker-compose/server--coturn/default.docker-compose
 !.gitignore
 !.gitmodules

@@ -1,0 +1,14 @@
+version:            '3'
+
+services:
+  server--coturn:
+    build:
+      context:      './../../docker/server--coturn'
+      dockerfile:   'default.docker'
+    command:        '${HOST_SERVICE_SERVER_COTURN_COMMAND}'
+    container_name: 'server--coturn'
+    image:          'talsenteam/docker-coturn:v4.5.0.7'
+    network_mode:   'host'
+    restart:        '${HOST_SERVICE_SERVER_COTURN_RESTART_POLICY}'
+    volumes:
+      -             '${HOST_PATH_TO_VOLUMES_ROOT}/server--coturn/data:/data'
