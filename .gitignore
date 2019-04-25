@@ -2,6 +2,8 @@
 
 !.vscode/
 !bash-commands
+!bash-commands--specific/
+!bash-commands--specific/setup--generate-configuration.sh
 !bash-util
 !.vscode/tasks.json
 !.gitignore
