@@ -45,7 +45,7 @@ VAR_OPTION="${1}"
 
 case ${VAR_OPTION} in
   "version")
-    coturn --version
+    dpkg -s coturn | grep "Version: "
     ;;
 
   "generate")
