@@ -1,5 +1,6 @@
 # docker-app: coturn
 
+![GitHub tag (latest by date)](https://img.shields.io/github/tag-date/talsen-team/docker-app--coturn.svg?style=for-the-badge)
 [![Docker Automated build](https://img.shields.io/docker/cloud/automated/talsenteam/docker-coturn.svg?style=for-the-badge)](//hub.docker.com/r/talsenteam/docker-coturn/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/talsenteam/docker-coturn.svg?style=for-the-badge)](//hub.docker.com/r/talsenteam/docker-coturn/)
 [![Docker Build Status](https://img.shields.io/docker/cloud/build/talsenteam/docker-coturn.svg?style=for-the-badge)](//hub.docker.com/r/talsenteam/docker-coturn/)
