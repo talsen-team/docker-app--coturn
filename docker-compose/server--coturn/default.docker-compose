@@ -7,7 +7,7 @@ services:
       dockerfile:   'default.docker'
     command:        '${HOST_SERVICE_SERVER_COTURN_COMMAND}'
     container_name: 'server--coturn'
-    image:          'talsenteam/docker-coturn:v4.5.1.0'
+    image:          'talsenteam/docker-coturn:v4.5.1.1'
     network_mode:   'host'
     restart:        '${HOST_SERVICE_SERVER_COTURN_RESTART_POLICY}'
     volumes:
